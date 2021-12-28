@@ -1,0 +1,131 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+/*.menu{
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	list-style: none;
+}*/
+.headerm{
+	position: fixed; top: 0px; width: 100%; border-bottom: 1px solid; border-color: lightgray;
+}
+.menu > li{
+	position: relative;
+	float: left;
+	/*margin-left: 5%;*/
+	margin-top: 4px;
+	height: 50px;
+}
+.menu >li >input{
+	background-color: white;
+	height: 56px;
+	width: 170px;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+}
+.menu >li >input.dn:hover {
+	margin-left: 5px;
+	background-color: rgb(222, 219, 254);
+	height: 50px;
+}
+.menu >li >input.dm:hover {
+	color: blue;
+}
+.menu1{
+	position: absolute;
+	list-style: none;
+	
+}
+.menu >li:hover >ul.menu1{
+	display: block;
+}
+.menu >li >ul.menu1{
+	display: none;
+	top: 56px;
+	position: absolute;
+	border: 1px solid;
+	width: 100%;
+	/*height: 45px;*/
+	border-color: lightgray;
+	background-color: white;
+}
+.menu >li >ul.menu1 >li>input{
+	background-color: white;
+	/*margin-left: 5%;	*/
+	height: 45px;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+}
+.menu >li >ul.menu1 >li>input:hover{
+	background-color: rgb(243, 242, 242);
+	color: blue;
+}
+
+/*Đăng ký*/
+.title1{
+	margin-top: 100px;
+	text-align: center;
+}
+.FXetTuyen{
+	margin-top: 20px;
+	background-color: violet;
+	width: 67%;
+	padding: 100px;
+	border-radius: 10px;
+	font-size: 25px;
+	border: 1px solid;
+	border-color: lightgray;
+}
+.FXetTuyen > tr > td > input.submitDK{
+	width: 400px;
+}
+.FTraCuu{
+	margin-top: 20px;
+	background-color: white;
+	width: 67%;
+	padding: 100px;
+	border-radius: 10px;
+	font-size: 25px;
+	border: 1px solid;
+	border-color: lightgray;
+}
+
+/*đăng nhập*/
+/*QuanLyTS*/
+.MenuDoc{
+	margin-left: 12%;
+	display: inline-block;
+	width: 15%;
+}
+.itemMenuDoc{
+	list-style: none;
+	border: 1px solid;
+	border-color: #8c8c8c;
+}
+.itemMenuDoc > li{
+	height: 50px;
+	background-color: rgb(240, 244, 254);
+	text-align: center;
+
+}
+.itemMenuDoc > li:hover{
+	background-color: #cceeff;
+}
+.itemMenuDoc >li >a{
+	line-height: 50px;
+	text-decoration: none;
+	color: blue;
+	font-size: 20px;
+}
+.iContent{
+	display: block;
+	float: right;
+	width: 63%;
+	margin-right: 9%;
+}
